@@ -1,0 +1,15 @@
+﻿<Window x:Class="Proyecto4.MenuVendedorAdministrador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto4"
+        mc:Ignorable="d"
+        Title="Menu VendedorAdministrador" Height="187.234" Width="435.106">
+    <Grid>
+        <Button x:Name="btnmenuAdministrador" Content="Abrir menu de administrador" HorizontalAlignment="Left" Margin="19,46,0,0" VerticalAlignment="Top" Width="176" Click="btnmenuAdministrador_Click"/>
+        <Button x:Name="btnmenuVendedor" Content="Abrir menu de vendedor" HorizontalAlignment="Left" Margin="226,46,0,0" VerticalAlignment="Top" Width="172" Click="btnmenuVendedor_Click"/>
+        <Button x:Name="button3" Content="Salir" HorizontalAlignment="Left" Margin="312,105,0,0" VerticalAlignment="Top" Width="86" Click="button3_Click"/>
+
+    </Grid>
+</Window>

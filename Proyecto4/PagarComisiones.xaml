@@ -1,0 +1,20 @@
+﻿<Window x:Class="Proyecto4.PagarComisiones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto4"
+        mc:Ignorable="d"
+        Title="PagarComisiones" Height="269.148" Width="473.404" Loaded="Window_Loaded">
+    <Grid>
+        <Label x:Name="label" Content="Nombre vendedor:" HorizontalAlignment="Left" Margin="18,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Total comisiones: $" HorizontalAlignment="Left" Margin="133,69,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Comision a pagar:" HorizontalAlignment="Left" Margin="18,124,0,0" VerticalAlignment="Top" Width="110"/>
+        <ComboBox x:Name="cbnombreVendedor" HorizontalAlignment="Left" Margin="133,30,0,0" VerticalAlignment="Top" Width="180"/>
+        <Button x:Name="button3" Content="Mostrar comisiones" HorizontalAlignment="Left" Margin="328,30,0,0" VerticalAlignment="Top" Width="121" Click="button3_Click"/>
+        <TextBox x:Name="txtPagarComision" HorizontalAlignment="Left" Height="23" Margin="133,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <Button x:Name="button1" Content="Pagar" HorizontalAlignment="Left" Margin="328,130,0,0" VerticalAlignment="Top" Width="121" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Menu" HorizontalAlignment="Left" Margin="328,191,0,0" VerticalAlignment="Top" Width="121"/>
+
+    </Grid>
+</Window>
