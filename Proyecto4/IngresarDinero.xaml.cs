@@ -17,6 +17,7 @@ namespace Proyecto4
     /// <summary>
     /// Interaction logic for IngresarDinero.xaml
     /// </summary>
+    //PROBANDO GITHUB
     public partial class IngresarDinero : Window
     {
         tblcaja miCaja = new tblcaja();
@@ -27,11 +28,14 @@ namespace Proyecto4
 
         private void btningresarDinero_Click(object sender, RoutedEventArgs e)
         {
-            int plata = Convert.ToInt32(txtingresarDinero.Text);
-            miCaja.Agregar(plata);
+        //CAMBIO VARIABLES
+        // PLATA = DINERO
+        //SALDO=TOTAL
+            int dinero = Convert.ToInt32(txtingresarDinero.Text);
+            miCaja.Agregar(dinero);
             txtingresarDinero.Text = "";
-            int saldo = miCaja.mostrarSaldo();
-            txtlabeldinero.Content = "$" + saldo;
+            int total = miCaja.mostrarSaldo();
+            txtlabeldinero.Content = "$" + total;
         }
 
         private void btnMenu_Click(object sender, RoutedEventArgs e)
