@@ -17,6 +17,7 @@ namespace Proyecto4
     /// <summary>
     /// Interaction logic for ComprarProducto.xaml
     /// </summary>
+    //HOLA MUNDO
     public partial class ComprarProducto : Window
     {
 
